@@ -1,0 +1,46 @@
+/* CUSTOM CSS - this is where you add your own css rules !!
+
+***********************************************************/ 
+
+/* Remove all social related icon */
+#bottom .span6 {display:none;}
+#bottom .span12 .social-icons {display:none;}
+#footer1 .row {margin-bottom:0px;}
+#infocard .span7 .social-icons {display:none;}
+
+/* Remove language box */
+#header .topnav .languages {display:none;}
+
+/* Left slide */
+#sidebar_left.sidebar {background:transparent; border:solid 2px #e8e8e8; border-radius:10px;}
+#sidebar_left.sidebar .moduletitle:after {width:95%}
+#sidebar_left .inputbox {width:90%;}
+#sidebar_left .textarea {width:90%;}
+#sidebar_left #contact_form .controls {margin-left:0px;}
+
+/* Print icon */
+#mainbody .span9 .item-page .print-icon {display:none;}
+
+/* Team manager grid */
+#mainbody .span9 .row .span4 {width:270px;}
+
+/* Blog List Items */
+#content .span9 .eBlog .items-leading .itemContainer {overflow:hidden;height:300px;text-overflow:ellipsis;}
+#content .span9 .eBlog .item.column-0 .itemContainer {overflow:hidden;height:300px;text-overflow:ellipsis;}
+#content .span9 .eBlog .item .itemContainer {overflow:hidden;height:500px;text-overflow:ellipsis;}
+// #content .span9 .eBlog .itemContainer .itemBody img {display:none;}
+
+/* Main Menu */
+#main_menu ul.sf-menu li a {font-size: 18px !important;}
+#main_menu ul.sf-menu li.active a {font-size: 18px !important;}
+.chaser ul.sf-menu li a {font-size: 18px !important;}
+.chaser ul.sf-menu li.active a {font-size: 18px !important;}
+.chaser {background:rgba(0,0,0,0.65);}
+
+/* Virtuemart Product Detail */
+#mainbody .product-page .product-fields .product-fields-title-wrapper {display:list-item !important;}
+#mainbody .product-page .product-fields .product-fields-title-wrapper .hasTooltip {display:none;}
+#mainbody .product-page .product-fields .product-fields-title-wrapper .product-fields-title {padding:0 8px 0 8px; vertical-align: middle;}
+#mainbody .product-page .product-fields .product-fields-title-wrapper .product-fields-title:after {top:10px;}
+#mainbody .span9 .product-fields .product-fields-title-wrapper {display:none;}
+
